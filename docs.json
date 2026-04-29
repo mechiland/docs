@@ -51,56 +51,65 @@
         }
       ]
     },
-    "tabs": [
+    "products": [
       {
-        "tab": "Documentation",
-        "groups": [
+        "product": "Product One",
+        "color": {
+          "light": "#b0136b",
+          "dark": "#b0136b"
+        },
+        "tabs": [
           {
-            "group": "Get Started",
-            "pages": [
-              "quickstart",
-              "introduction",
-              "development"
+            "tab": "Documentation",
+            "groups": [
+              {
+                "group": "Get Started",
+                "pages": [
+                  "quickstart",
+                  "introduction",
+                  "development"
+                ]
+              },
+              {
+                "group": "Essentials",
+                "pages": [
+                  "essentials/markdown",
+                  "essentials/code",
+                  "essentials/images",
+                  "essentials/settings",
+                  "essentials/navigation",
+                  "essentials/reusable-snippets"
+                ]
+              }
             ]
           },
           {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
+            "tab": "API Reference",
+            "groups": [
+              {
+                "group": "API Documentation",
+                "pages": [
+                  "api-reference/introduction"
+                ]
+              },
+              {
+                "group": "Endpoint Examples",
+                "pages": [
+                  "api-reference/endpoint/get",
+                  "api-reference/endpoint/create",
+                  "api-reference/endpoint/delete"
+                ]
+              }
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "tab": "Future",
+            "icon": "alarm-plus",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete"
+              "future-is-here"
             ]
           }
         ]
-      },
-      {
-        "tab": "Future",
-        "pages": [
-          "future-is-here"
-        ],
-        "icon": "alarm-plus"
       }
     ]
   }
