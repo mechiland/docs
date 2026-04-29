@@ -9,13 +9,17 @@
   "favicon": "/favicon.svg",
   "logo": {
     "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "dark": "/logo/light.svg"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
         "href": "mailto:hi@mintlify.com"
+      },
+      {
+        "href": "https://help.jinshuju.net",
+        "label": "Help"
       }
     ],
     "primary": {
@@ -123,5 +127,15 @@
         ]
       }
     ]
+  },
+  "background": {
+    "decoration": "gradient"
+  },
+  "fonts": {
+    "family": "Source Sans Pro",
+    "weight": 300
+  },
+  "banner": {
+    "content": "Wowo"
   }
 }
