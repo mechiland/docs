@@ -99,7 +99,8 @@
         "tab": "Future",
         "pages": [
           "future-is-here"
-        ]
+        ],
+        "icon": "alarm-plus"
       }
     ]
   }
