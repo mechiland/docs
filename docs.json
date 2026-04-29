@@ -110,6 +110,17 @@
             ]
           }
         ]
+      },
+      {
+        "product": "Product Two",
+        "languages": [
+          {
+            "language": "cn",
+            "pages": [
+              "wow"
+            ]
+          }
+        ]
       }
     ]
   }
