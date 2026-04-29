@@ -96,7 +96,10 @@
         ]
       },
       {
-        "tab": "Future"
+        "tab": "Future",
+        "pages": [
+          "future-is-here"
+        ]
       }
     ]
   }
